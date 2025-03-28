@@ -8,7 +8,7 @@
 ###############################################################################
 import json
 
-mapxPath = r'D:\Py_Workspace\mapx_inspector\PanunTools Sample (Utah).mapx'
+mapxPath = r'D:\GitHub Workspace\mapx_inspector\PanunTools Sample (Utah).mapx'
 
 with open(mapxPath, "r", encoding="utf-8") as j:
     mapx = json.load(j)

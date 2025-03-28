@@ -8,7 +8,7 @@
 ###############################################################################
 import arcpy
 
-aprx = r'D:\Py_Workspace\mapx_inspector\Sample.aprx'
+aprx = r'D:\GitHub Workspace\mapx_inspector\Sample.aprx'
 
 p = arcpy.mp.ArcGISProject(aprx)
 m = p.listMaps('PanunTools Sample (Utah)')[0]
