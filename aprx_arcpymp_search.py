@@ -25,7 +25,7 @@ for l in layers:
     if l_cim.visibility is True:
         l_stats = 'Layer On '
     else:
-        l_stats = 'Layer Off: '
+        l_stats = 'Layer Off '
     if l.isGroupLayer is False:
 
         if l_cim.labelVisibility is True:
